@@ -89,6 +89,7 @@ hr {
 }
 
 .bottom-container {
+  line-height: 2;
   background-color: #144747;
   height: 200px;
 }
