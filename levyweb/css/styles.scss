@@ -3,7 +3,7 @@ body {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: rgb(38, 37, 48);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 
     .headingText {
         color: #144747;
@@ -14,12 +14,23 @@ body {
     }
     h2 {
         font-size: 1.8rem;
-        font-weight: normal;
+        font-weight: 700;
         color: #144747;
     }
     h3 {
-        color: #144747;
+        color: #90fcb9;
+        font-weight: bold;
     }
+
+}
+hr {
+    width: 10%;
+    border: 10px dotted;
+    border-style: none none dotted;
+    color: #90fcb9;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
 }
 
 
@@ -42,13 +53,32 @@ body {
     background-color: #90fcb9;
     padding: 1rem;
     padding-bottom: 0;
+    line-height: 2;
 }
 
 .pro {
     text-decoration: underline;
 }
 .profile-img {
-    height: 150px;
+    margin: 100px auto;
+    height: auto;
+}
+.skill-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.sushi-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
 }
 
 .middel-container {
