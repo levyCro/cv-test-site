@@ -8,29 +8,32 @@ body {
     .headingText {
         color: #144747;
         margin: 100px auto 0 auto;
-        font-family: 'Sacramento', cursive; 
+        font-family: 'Sacramento', cursive;
         font-size: 5rem;
         line-height: 2;
     }
+
     h2 {
         font-size: 1.8rem;
         font-weight: 700;
         color: #144747;
     }
+
     h3 {
         color: #90fcb9;
         font-weight: bold;
     }
 
 }
+
 hr {
     width: 10%;
     border: 10px dotted;
     border-style: none none dotted;
     color: #90fcb9;
     padding-top: 2rem;
-    padding-bottom: 2rem;
-    
+    padding-bottom: 3rem;
+
 }
 
 
@@ -59,15 +62,18 @@ hr {
 .pro {
     text-decoration: underline;
 }
+
 .profile-img {
     margin: 100px auto;
     height: auto;
 }
+
 .skill-img {
     width: 25%;
     float: left;
     margin-right: 30px;
 }
+
 .sushi-img {
     width: 25%;
     float: right;
@@ -82,8 +88,39 @@ hr {
 }
 
 .middel-container {
+    line-height: 2;
+}
+
+.bottom-container {
+    background-color: #144747;
+    height: 200px;
+
 
 }
-.bottom-container {
 
+.footer-link {
+    color: #90fcb9;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.copywrite {
+    color: antiquewhite;
+}
+
+.button {
+    background-color: #144747;
+
+
+    text-align: center;
+    padding: 11px 32px;
+    border: solid 1px #90fcb9;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 30px auto;
+}
+
+.btn {
+    color: #90fcb9;
 }

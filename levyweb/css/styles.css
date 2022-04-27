@@ -31,7 +31,7 @@ hr {
   border-style: none none dotted;
   color: #90fcb9;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .top-cloud {
@@ -82,5 +82,37 @@ hr {
   margin: 100px auto;
   text-align: left;
   line-height: 2;
+}
+
+.middel-container {
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: #144747;
+  height: 200px;
+}
+
+.footer-link {
+  color: #90fcb9;
+  display: inline-block;
+  padding-top: 50px;
+}
+
+.copywrite {
+  color: antiquewhite;
+}
+
+.button {
+  background-color: #144747;
+  text-align: center;
+  padding: 11px 32px;
+  border: solid 1px #90fcb9;
+  border-radius: 4px;
+  margin: 30px auto;
+}
+
+.btn {
+  color: #90fcb9;
 }
 /*# sourceMappingURL=styles.css.map */
